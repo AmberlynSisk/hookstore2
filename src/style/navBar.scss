@@ -1,0 +1,32 @@
+.navigation-container {
+    background-color: #E2D9E8;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 8px black;
+
+    .nav-link-wrapper {
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav-link a {
+        text-decoration: none;
+        font-family: 'Fredoka', sans-serif;
+        font-size: 23px;
+        color: #31273F;
+        font-weight: 800;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            color: #54079D;
+        }
+
+        &:focus {
+            color: #54079D;
+        }
+    }
+}

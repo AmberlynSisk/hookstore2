@@ -1,0 +1,35 @@
+.book-container {
+    font-family: 'Fredoka', sans-serif;
+    background: #F4F2F7;
+    margin: 20px;
+    border: 2px solid #B4A6C9;
+    border-radius: 5px; 
+    padding: 15px 0 15px 0;
+
+    .btn-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        padding: 5px;
+
+        .btn {
+            font-family: 'Fredoka', sans-serif;
+            background-color: #BFB3D0;
+            border: 1px solid transparent;
+            text-shadow: 1px 1px 1px transparent;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+            height: 30px;
+            width: 65px;
+            font-size: 16px;
+
+            &:hover {
+                color: #F4F2F7;
+                border: 1px solid #453659;
+                text-shadow: 1px 1px 1px #453659;
+            }
+        }
+    }
+}
