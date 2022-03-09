@@ -71,4 +71,3 @@ export default function Home(props) {
         </div>
     )
 } 
-// pushing to heroku(delete this)

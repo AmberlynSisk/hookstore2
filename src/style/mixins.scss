@@ -1,0 +1,38 @@
+@mixin btn {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #BFB3D0;
+    text-shadow: 1px 1px 1px transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    height: 30px;
+    width: 65px;
+    font-size: 16px;
+}
+
+@mixin title {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 5px #DFD9E8;
+}
+
+
+@mixin inputs {
+    display: flex;
+        flex-direction: column;
+        height: 25%;
+        justify-content: space-evenly;
+        align-items: center;
+
+        input {
+            background-color: #EBEBFF;
+            border-radius: 4px;
+            height: 30px;
+            width: 500px;
+            font-size: 16px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+}

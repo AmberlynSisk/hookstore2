@@ -14,16 +14,8 @@
         padding: 5px;
 
         .btn {
-            font-family: 'Fredoka', sans-serif;
-            background-color: #BFB3D0;
+            @include btn;
             border: 1px solid transparent;
-            text-shadow: 1px 1px 1px transparent;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: 0.2s ease-in-out;
-            height: 30px;
-            width: 65px;
-            font-size: 16px;
 
             &:hover {
                 color: #F4F2F7;
